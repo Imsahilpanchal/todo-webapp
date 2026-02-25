@@ -1,18 +1,87 @@
-# React + Vite
+# To-Do Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **React** project for managing tasks with full **CRUD** functionality:
 
-Currently, two official plugins are available:
+- **Create** – Add new tasks  
+- **Read** – View all tasks  
+- **Update** – Edit tasks  
+- **Delete** – Remove tasks  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*Note: This version does not have filtering or local storage. All data is temporary and resets on page reload.*
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Demo Screenshot
 
-Note: This will impact Vite dev & build performances.
+![Screenshot](screenshot.png)  
+*Optional: add a screenshot of your app here*
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Prerequisites
+
+- Node.js ([Download](https://nodejs.org/))  
+- npm (comes with Node.js)
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/todo-web-app.git
+
+Navigate to the project folder:
+
+cd todo-web-app
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm start
+
+Open your browser at http://localhost:5173
+ (Vite default port)
+
+Project Structure
+todo-web-app/
+├── public/             # HTML and static assets
+├── src/                # React components
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── package.json
+├── package-lock.json
+└── README.md
+Usage
+
+Add tasks using the input form
+
+Edit tasks using the edit button
+
+Delete tasks with the delete button
+
+Task list resets on page reload
+
+Technologies Used
+
+React 18+
+
+JavaScript (ES6+)
+
+HTML5 & CSS3
+
+Author
+
+Sahil Panchal
+
+GitHub: Imsahilpanchal
+
+License
+
+This project is open source. You can use it for learning and portfolio purposes.
